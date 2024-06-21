@@ -13,13 +13,13 @@ importers:
         version: 0.10.7
       typescript:
         specifier: ^5.4.5
-        version: 5.4.5
+        version: 5.5.2
       vite:
         specifier: ^5.2.13
-        version: 5.2.13
+        version: 5.2.13(@types/node@20.14.2)
       vite-plugin-web-extension:
         specifier: ^4.1.4
-        version: 4.1.4
+        version: 4.1.4(@types/node@20.14.2)
       webextension-polyfill:
         specifier: ^0.12.0
         version: 0.12.0
@@ -1234,8 +1234,8 @@ packages:
   typedarray@0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
 
-  typescript@5.4.5:
-    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
+  typescript@5.5.2:
+    resolution: {integrity: sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -2520,7 +2520,7 @@ snapshots:
 
   typedarray@0.0.6: {}
 
-  typescript@5.4.5: {}
+  typescript@5.5.2: {}
 
   uhyphen@0.2.0: {}
 
@@ -2559,7 +2559,7 @@ snapshots:
 
   uuid@8.3.2: {}
 
-  vite-plugin-web-extension@4.1.4:
+  vite-plugin-web-extension@4.1.4(@types/node@20.14.2):
     dependencies:
       ajv: 8.16.0
       async-lock: 1.4.1
@@ -2569,7 +2569,7 @@ snapshots:
       lodash.uniq: 4.5.0
       lodash.uniqby: 4.7.0
       md5: 2.3.0
-      vite: 5.2.13
+      vite: 5.2.13(@types/node@20.14.2)
       web-ext-run: 0.1.2
       webextension-polyfill: 0.10.0
       yaml: 2.4.5
@@ -2585,12 +2585,13 @@ snapshots:
       - terser
       - utf-8-validate
 
-  vite@5.2.13:
+  vite@5.2.13(@types/node@20.14.2):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.18.0
     optionalDependencies:
+      '@types/node': 20.14.2
       fsevents: 2.3.3
 
   watchpack@2.4.0:
